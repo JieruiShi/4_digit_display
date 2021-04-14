@@ -29,7 +29,7 @@ void setup() {
 void loop() {
   step();
   counter++;
-  if (counter % 1 == 0){
+  if (counter % 10 == 0){
     displayValue ++;
   }
 }
